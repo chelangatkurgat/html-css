@@ -42,3 +42,44 @@ body{
 .h-nav ul li a:hover{
 	color: blue;
 }
+p{
+	margin-bottom: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: 10px;
+}
+ul,li{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+img{
+	display: block;
+	max-width: 70%;
+}
+.h-content{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.h-article{
+	background: #fff;
+	padding: 30px;
+}
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: none;
+
+}
+.h-footer{
+	background: #fff;
+	text-align: center;
+	padding: 20px
+}
+.h-sidebar{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 25%;
+	float:right;
+	width: 25
+}
