@@ -29,3 +29,16 @@ body{
 	float: right;
 
 }
+.h-nav ul li{
+	display: inline-block;
+}
+.h-nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #303030;
+	line-height: 60px;
+
+}
+.h-nav ul li a:hover{
+	color: blue;
+}
