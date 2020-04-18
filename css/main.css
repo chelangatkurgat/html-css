@@ -54,11 +54,13 @@ ul,li{
 }
 img{
 	display: block;
-	max-width: 70%;
+	max-width: 100%;
 }
 .h-content{
 	margin-top: 30px;
 	margin-bottom: 30px;
+	max-width: 70%;
+	float: left;
 }
 .h-article{
 	background: #fff;
@@ -74,7 +76,7 @@ img{
 .h-footer{
 	background: #fff;
 	text-align: center;
-	padding: 20px
+	padding: 20px;
 }
 .h-sidebar{
 	margin-top: 30px;
@@ -82,4 +84,8 @@ img{
 	max-width: 25%;
 	float:right;
 	width: 25
+}
+.h-sidebar div{
+	background: #fff;
+	padding: 30px;
 }
